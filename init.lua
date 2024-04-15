@@ -102,9 +102,6 @@ vim.opt.scrolloff = 10
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
--- Map Ctrl+Shift+Y to accept suggestions (accept diffs)
-vim.keymap.set('i', '<C-S-Y>', '<Plug>(copilot-accept-diff)')
-
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
